@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agenda24h.multiverso360.com.br/sitemap.xml
