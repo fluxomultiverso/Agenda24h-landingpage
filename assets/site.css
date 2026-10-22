@@ -169,3 +169,11 @@ footer{background:#fff;border-top-color:var(--stroke)}
 .annual-saving{font-size:.79rem;font-weight:700;color:#245442;margin:4px 0 10px}
 .annual-saving[hidden]{display:none}
 @media(max-width:560px){.billing-switch{max-width:100%;gap:2px}.billing-option{padding:10px 11px;font-size:.84rem}.billing-off{font-size:.61rem;margin-left:3px;padding:3px 5px}}
+
+/* Painel de escolha de periodicidade — visibilidade reforçada */
+#planos .billing-selector-panel{display:block!important;visibility:visible!important;opacity:1!important;position:relative;z-index:2;width:fit-content;max-width:100%;margin:28px auto 12px;padding:18px 22px 12px;border:2px solid #83a578;border-radius:20px;background:#f1f7ed;box-shadow:0 9px 28px #2454421c;text-align:center}
+#planos .billing-selector-title{margin:0 0 4px;font-weight:800;color:#245442;font-size:1rem}
+#planos .billing-switch{display:inline-flex!important;visibility:visible!important;opacity:1!important;position:relative;margin:12px auto 9px;border:1px solid #a0baa0}
+#planos .billing-option{display:inline-flex!important;align-items:center;justify-content:center;white-space:normal;min-height:45px}
+#planos .billing-help{margin:4px auto 0;color:#48604e}
+@media(max-width:560px){#planos .billing-selector-panel{width:100%;padding:16px 9px 12px}#planos .billing-switch{width:100%;justify-content:center}#planos .billing-option{flex:1;padding:9px 7px;font-size:.81rem}#planos .billing-off{display:block;margin:2px 0 0}}
