@@ -157,3 +157,15 @@ footer{background:#fff;border-top-color:var(--stroke)}
   .legal-article h2{line-height:1.4}
   .legal-page .footer-links{justify-content:flex-start}
 }
+
+/* Seletor mensal/anual dos planos */
+.billing-switch{display:inline-flex;align-items:center;gap:4px;padding:5px;background:#e8eee5;border:1px solid var(--stroke);border-radius:999px;margin:25px auto 8px}
+.billing-option{appearance:none;border:0;border-radius:999px;padding:12px 21px;background:transparent;color:#3e5948;font:700 .93rem 'DM Sans',sans-serif;cursor:pointer;transition:background .18s,color .18s,box-shadow .18s}
+.billing-option.is-active{background:#245442;color:#fff;box-shadow:0 3px 12px #24544225}
+.billing-option:focus-visible{outline:3px solid #e99039;outline-offset:3px}
+.billing-off{display:inline-block;margin-left:5px;padding:3px 7px;border-radius:20px;background:#d8ebce;color:#245442;font-size:.7rem}
+.billing-option.is-active .billing-off{background:#fff;color:#245442}
+.billing-help{font-size:.83rem;color:#536957;margin:2px 0 24px}
+.annual-saving{font-size:.79rem;font-weight:700;color:#245442;margin:4px 0 10px}
+.annual-saving[hidden]{display:none}
+@media(max-width:560px){.billing-switch{max-width:100%;gap:2px}.billing-option{padding:10px 11px;font-size:.84rem}.billing-off{font-size:.61rem;margin-left:3px;padding:3px 5px}}
