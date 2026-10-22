@@ -29,6 +29,101 @@
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
 <script defer src="assets/analytics.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://agenda24h.multiverso360.com.br/#organizacao",
+      "name": "Multiverso360",
+      "logo": "https://agenda24h.multiverso360.com.br/assets/logo-agenda24h.png",
+      "email": "contato@multiverso360.com.br"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://agenda24h.multiverso360.com.br/#site",
+      "url": "https://agenda24h.multiverso360.com.br/",
+      "name": "Agenda 24h",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://agenda24h.multiverso360.com.br/#organizacao"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://agenda24h.multiverso360.com.br/#software",
+      "name": "Agenda 24h",
+      "url": "https://agenda24h.multiverso360.com.br/",
+      "description": "Agenda 24h: atendimento por IA no WhatsApp, agendamentos, lembretes e gestão para profissionais e equipes. Conheça os planos Solo, Equipe e Empresa.",
+      "applicationCategory": "BusinessApplication",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://agenda24h.multiverso360.com.br/#organizacao"
+      },
+      "featureList": [
+        "Agendamento com verificação",
+        "Cancelamento e remarcação",
+        "Lembretes automáticos",
+        "Respostas às dúvidas comuns",
+        "Portal da equipe",
+        "Atendimento humano"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenda24h.multiverso360.com.br/#perguntas",
+      "url": "https://agenda24h.multiverso360.com.br/#perguntas",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://agenda24h.multiverso360.com.br/#site"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Preciso responder as mensagens para o sistema agendar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O assistente consulta serviços e agenda, apresenta opções e pode concluir a reserva depois que o cliente confirmar. Pedidos de atendimento humano são encaminhados conforme a configuração."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O cliente pode mandar áudio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O áudio é transcrito para texto e então processado como uma mensagem do cliente. Imagens, vídeos e outros arquivos não são atendidos pelo assistente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso cadastrar vários profissionais e serviços?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O limite de profissionais depende do plano: Solo admite 1, Equipe até 5 e Empresa até 15. Serviços podem ser vinculados aos profissionais correspondentes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso definir prazos para cancelar ou remarcar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O atendimento considera os prazos configurados para cancelamento e reagendamento e pede confirmação antes de alterar a reserva."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Os valores dos serviços podem mudar depois?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Serviços e preços são consultados no cadastro atual. Sua equipe pode administrar essas informações conforme as permissões do portal."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body id="top">
 <header><div class="wrap header-in"><a class="brand" href="#top"><img src="assets/logo-agenda24h.png" alt="Logotipo Agenda 24h"><span><strong>AGENDA 24H</strong><small>por Multiverso360</small></span></a><nav class="nav" aria-label="Navegação principal"><a href="#como-funciona">Como funciona</a><a href="#funcionalidades">Funcionalidades</a><a href="#planos">Planos</a><a href="#perguntas">Perguntas</a></nav><a class="btn btn-green" href="https://wa.me/message/WZS76EXSH2XUH1">Falar no WhatsApp</a></div></header>
